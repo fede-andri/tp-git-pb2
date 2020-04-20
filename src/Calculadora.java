@@ -6,20 +6,15 @@ public class Calculadora {
 		Integer a;
 		Integer b;
 		Integer opcion;
-		Integer resultado;
-<<<<<<< HEAD
-		Scanner teclado;
-		do {
-			System.out.println("Ingrese su operacion /n 1 para sumar /n 2 para restar /3 para multiplicar /n 4 para dividir");
-			opcion = teclado.next();
-		}while(opcion < 1 && opcion > 4);
-=======
+		Integer resultado = 0;
 		Scanner teclado = new Scanner(System.in);
 		do {
-			System.out.println("Ingrese su operacion /n 1 para sumar /n 2 para restar /3 para multiplicar /n 4 para dividir");
+			System.out.println("Ingrese 1 para sumar");
+			System.out.println("Ingrese 2 para restar");
+			System.out.println("Ingrese 3 para multiplicar");
+			System.out.println("Ingrese 4 para dividir");
 			opcion = teclado.nextInt();
-		}while(opcion < 1 && opcion > 4)
->>>>>>> 8cbc1c8c34c492d620667088c4a75a8bba0a87c6
+		}while(opcion < 1 && opcion > 4);
 		
 		System.out.println("Ingrese el primer numero");
 		a = teclado.nextInt();
