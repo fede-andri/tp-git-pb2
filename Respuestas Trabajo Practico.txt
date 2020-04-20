@@ -1,0 +1,9 @@
+5.
+ a) Se produjo un error al hacer el segundo push.
+ b) Antes de realizar el push hay que agregar el archivo modificado al repositorio local y luego
+    hacer un commit, y si pasa lo que paso hay que hablar con el grupo y elegir una de las modificaciones.
+ c) Se podria habalr en grupo y no hacer cambios en la misma linea de codigo.
+
+6. El comando -b crea la rama y te mueve a ella al mismo tiempo.
+
+9. Esta comparando las dos ramas y dice cuales commits se encuentran en una rama y en la otra no. 
