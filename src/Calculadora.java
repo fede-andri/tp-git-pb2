@@ -7,15 +7,16 @@ public class Calculadora {
 		Integer b;
 		Integer opcion;
 		Integer resultado;
+		Scanner teclado = new Scanner(System.in);
 		do {
 			System.out.println("Ingrese su operacion /n 1 para sumar /n 2 para restar /3 para multiplicar /n 4 para dividir");
-			opcion = teclado.next();
+			opcion = teclado.nextInt();
 		}while(opcion < 1 && opcion > 4)
 		
 		System.out.println("Ingrese el primer numero");
-		a = teclado.next();
+		a = teclado.nextInt();
 		System.out.println("Ingrese el segundo numero");
-		a = teclado.next();
+		b = teclado.nextInt();
 		
 		switch(opcion){
 			
